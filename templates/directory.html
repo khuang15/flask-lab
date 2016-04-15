@@ -8,7 +8,7 @@
 <body>
     <ol>
     {% for student in students %}
-    <p><li><a href="/directory/{{ student.username }}">{{ student.first_name }} {{ student.last_name }}</a></li></p>
+    <li><p><a href="/directory/{{ student.username }}">{{ student.first_name }} {{ student.last_name }}</a></p></li>
     {% endfor %}
     </ol>
 </body>
