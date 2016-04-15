@@ -6,10 +6,10 @@
     <link rel="stylesheet" href="/css/styles.css">
 </head>
 <body>
-    <p>{{ student.first_name }} {{ student.last_name }}</p>
-    <p>Email: {{ student.username }}@oxy.edu</p>
-    <p>Majors: {{ student.majors }}</p>
-    <p>Advisor: {{ student.advisor }}</p>
+    <h2>{{ student.first_name }} {{ student.last_name }}</h2>
+    <ol class="student"><li>Email: <span class="info">{{ student.username }}@oxy.edu</span></li>
+    <li>Majors: <span class="info">{{ student.majors }}</span></li>
+    <li>Advisor: <span class="info">{{ student.advisor }}</span></li></ol>
     <p>
         <a href="/directory/{{ prev_student.username }}">Previous</a>
         <a href="/directory/{{ next_student.username }}">Next</a>

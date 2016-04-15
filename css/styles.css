@@ -1,2 +1,6 @@
 h1 { color:#FF0000; }
-p { color:(255, 150, 0) }
+h2 { color:#FF9595; }
+a { color:#00FC50; }
+ol.student { color:#474747; }
+li { color:#808080; }
+span.info { color:#B3B3B3; }
